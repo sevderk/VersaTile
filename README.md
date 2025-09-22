@@ -9,7 +9,7 @@ Take a quick note, tick a checklist, start a timer, track habits, save links, ru
 
 - **Modular tiles** you can open full-screen for focus
 - **Fast & offline-friendly** UX
-- **Thoughtful theming** (light/dark + accent usage)
+- **Thoughtful theming** (blue serenity vibe, light/dark + accent usage)
 - **Mobile-first** design with smooth scrolling & keyboard handling
 
 ---
@@ -36,6 +36,7 @@ Take a quick note, tick a checklist, start a timer, track habits, save links, ru
 ---
 
 ## Screenshots 🖼️
+
 ![InCollage_20250922_213901903](https://github.com/user-attachments/assets/9fb4e9e5-c89b-42c4-a3c5-fa4d6f9050bf)
 
 ---
@@ -50,6 +51,7 @@ Take a quick note, tick a checklist, start a timer, track habits, save links, ru
 
 ![InCollage_20250922_214418994](https://github.com/user-attachments/assets/a0567179-7c6f-4db2-bd87-c70a199874f8)
 
+### and many more tiles...
 ---
 
 ## Tech Stack 🛠️
@@ -62,16 +64,7 @@ Take a quick note, tick a checklist, start a timer, track habits, save links, ru
 
 ---
 
-## Contributing 🤝
-
-Issues and PRs are welcome!  
-Please keep changes small and focused on a single tile or behavior.
-
----
-
 ## Installation & Running (Local) 🚀
-
-> Kept at the end, as requested.
 
 ### Prerequisites
 - Node 18+ and npm (or yarn/pnpm)
@@ -82,14 +75,12 @@ Please keep changes small and focused on a single tile or behavior.
 # Clone
 git clone https://github.com/sevderk/VersaTile.git
 cd VersaTile
-```
-
-# Install
-```bash
 npm install
-```
-# Run
-```bash
 npx expo start
 ```
-# Press i (iOS), a (Android), or scan with Expo Go
+- Press i (iOS), a (Android), or scan with Expo Go
+
+---
+
+## Author 🙋‍♀️
+Made with 💙 by @sevderk
