@@ -1,50 +1,95 @@
-# Welcome to your Expo app 👋
+# VersaTile 🧩
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean, themeable **Expo + React Native** productivity hub made of tiny, focused tools (“tiles”).  
+Take a quick note, tick a checklist, start a timer, track habits, save links, run a countdown, and more—without bloat.
 
-## Get started
+---
 
-1. Install dependencies
+## Highlights ✨
 
-   ```bash
-   npm install
-   ```
+- **Modular tiles** you can open full-screen for focus
+- **Fast & offline-friendly** UX
+- **Thoughtful theming** (light/dark + accent usage)
+- **Mobile-first** design with smooth scrolling & keyboard handling
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Tiles Included 🧱
 
-In the output, you'll find options to open the app in a
+- 📝 **Quick Note** – capture & edit notes (pin, search)
+- ✅ **Checklist** – categories, hide/show done, progress
+- ⏱️ **Pomodoro** – focus & break cycles
+- 🔥 **Habit Streak** – mark days, month grid, swipe navigation
+- 🔖 **Link Saver** – quick store, tag, favorite, copy, open
+- 💧 **Water Tracker** – set target, daily intake
+- ➕ **Counter** – simple increment/decrement with steps
+- 🕒 **Stopwatch** – laps & totals
+- 🔁 **Unit Converter** – handy conversions
+- 💸 **Expenses (Mini)** – track small spends + per-category bars
+- 🔐 **Password Generator** – configurable length & character sets
+- 😊 **Mood Tracker** – daily mood + note with calendar
+- 🌬️ **Breathing** – Box 4-4-4 and 4-7-8 modes with cycles
+- ⏳ **Countdown** – multiple deadlines, nearest-first display
+- 🎲 **Random Picker** – pick from a set of choices
+- 📋 **Routine Builder** – steps with minutes, timer & run history
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Screenshots 🖼️
+![InCollage_20250922_213901903](https://github.com/user-attachments/assets/9fb4e9e5-c89b-42c4-a3c5-fa4d6f9050bf)
 
-## Get a fresh project
+---
 
-When you're ready, run:
+![InCollage_20250922_214153235](https://github.com/user-attachments/assets/577debc9-b376-4d34-ba86-bfe71c3fdc99)
 
+---
+
+![InCollage_20250922_214255135](https://github.com/user-attachments/assets/4aeb1fd2-6c24-497f-af92-dd5c70ea9afe)
+
+---
+
+![InCollage_20250922_214418994](https://github.com/user-attachments/assets/a0567179-7c6f-4db2-bd87-c70a199874f8)
+
+---
+
+## Tech Stack 🛠️
+
+- **Expo** & **React Native**
+- **TypeScript**
+- **expo-router**
+- **Ionicons**
+- Custom **ThemeProvider** (light/dark, accent-aware)
+
+---
+
+## Contributing 🤝
+
+Issues and PRs are welcome!  
+Please keep changes small and focused on a single tile or behavior.
+
+---
+
+## Installation & Running (Local) 🚀
+
+> Kept at the end, as requested.
+
+### Prerequisites
+- Node 18+ and npm (or yarn/pnpm)
+- Expo CLI (`npm i -g expo`)
+
+### Steps
 ```bash
-npm run reset-project
+# Clone
+git clone https://github.com/sevderk/VersaTile.git
+cd VersaTile
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Install
+```bash
+npm install
+```
+# Run
+```bash
+npx expo start
+```
+# Press i (iOS), a (Android), or scan with Expo Go
